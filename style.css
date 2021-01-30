@@ -1,0 +1,153 @@
+body{
+width:100%;
+background:thistle;
+margin:0;
+}
+
+
+<!--ヘッダー-->
+header{
+width:100%;
+}
+#logodiv{
+width:100px;
+margin:0 40%;
+height:80px;
+}
+#logo{
+width:230px;
+background:thistle;
+text-align:center;
+}
+
+
+header h1{
+margin:0;
+font-size:30px;
+text-align:center;
+margin:10px;
+}
+#menu{
+padding:10px 0;
+width:100%;
+height:30px;
+
+background:#c71585;
+
+text-align:center;
+margin:0;
+}
+#menu ul{
+list-style-type:none;
+margin:0;
+color:#fff;
+}
+#menu li{
+margin:0;
+padding:10px;
+
+border-left:1px solid thistle;
+border-right:1px solid thistle;
+
+color:#000;
+font-weight:bold;
+display:inline;
+}
+#menu a,a:link,a:visited,a:hover,a:active{
+color:#fff;
+text-decoration: none;
+
+//background:#c71585;
+//padding:5px;
+}
+
+
+
+
+<!--本文-->
+
+#all{
+width:600px;
+//overflow: hidden;
+}
+#all h2{
+ font-size:30px;
+ text-align:center;
+ border-bottom:3px dotted #c71585;
+}
+h3{
+  font-size:28px;
+}
+
+<!--左-->
+#left{
+width:420px;
+//float:left;
+//border-right:1px solid lightgray;
+}
+#indeximg{
+ width:100%;
+ height:250px;
+ object-fit: cover;
+}
+#left p{
+width:100%;
+}
+#subtitle{
+ display:inline-block;
+ margin:5px;
+ padding:5px;
+ //background-color:#c71585;
+border-bottom:3px solid #c71585;
+ / color:#fff;
+}
+
+#tegohime{
+ font-size:20px;
+}
+
+table{
+ text-align:left;
+}
+#zinzyamei{
+ font-size:19px;
+}
+
+
+
+<!--右-->
+#right{
+width:180px;
+//float:right;
+}
+#right ul{
+ list-style-type:none;
+ margin:0;
+ padding:10px;
+ font-weight:bold;
+ display:inline;
+}
+#right a,a:link,a:visited,a:hover,a:active{
+ color:#000;
+ text-decoration: none;
+}
+#right #sentaku{
+ color:deeppink;
+}
+
+
+
+
+<!--フッター-->
+footer{
+width:100%;
+height:200px;
+margin:0;
+}
+#footerdiv{
+margin-top:30px;
+color:#000;
+//background-color:#ffcccc;
+padding:10px;
+border-top:1px solid #c71585;
+}
