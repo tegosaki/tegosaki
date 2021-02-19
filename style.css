@@ -3,7 +3,7 @@ body{
   background: thistle;
   margin: 0;
   padding:0;
-  font-family: "Yu Mincho","YuMincho",”Hiragino Mincho ProN”;
+  font-family: 'Noto Serif JP',"Yu Mincho","YuMincho","Hiragino Mincho ProN", serif;
 }
 
 
